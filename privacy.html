@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AutoClip Army – Privacy Policy</title><style>
+  /* Layout: single reading column, two policy sections addressable by #terms and #privacy */
+  :root {
+    --bg: #f6f8f8; --fg: #16201f; --muted: #5a6866; --rule: #d6dedd; --accent: #0f8f80;
+    --body: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #0f1514; --fg: #e3ebea; --muted: #93a3a0; --rule: #26312f; --accent: #3cc9b5; color-scheme: dark } }
+  :root[data-theme="dark"] { --bg: #0f1514; --fg: #e3ebea; --muted: #93a3a0; --rule: #26312f; --accent: #3cc9b5; color-scheme: dark }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.65 var(--body); }
+  main { max-width: 68ch; margin: 0 auto; padding-block: 48px 72px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark { width: 40px; height: 40px; border-radius: 9px; background: var(--accent); display: grid; place-items: center; flex: none; }
+  .mark svg { width: 16px; height: 16px; fill: var(--bg); }
+  h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; }
+  nav { display: flex; gap: 18px; margin: 18px 0 8px; font-family: var(--mono); font-size: .85rem; letter-spacing: .02em; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 28px; }
+  h2 { font-size: 1.25rem; margin: 0 0 4px; }
+  .meta { color: var(--muted); font-family: var(--mono); font-size: .8rem; margin: 0 0 16px; }
+  h3 { font-size: 1rem; margin: 22px 0 4px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 10px; }
+  code { font-family: var(--mono); font-size: .88em; }
+</style><body><main><header>
+    <div class="mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5l11 7-11 7z"/></svg></div>
+    <h1>AutoClip Army</h1>
+  </header>
+  <p>AutoClip Army is a personal desktop application that runs locally on its owner's Mac. It turns long videos from clipping campaigns, where the original creator allows clipping, into short vertical clips and posts them to the owner's own TikTok account through TikTok's official Content Posting API.</p>
+  <nav><a href="terms.html">Terms of Service</a> <a href="privacy.html">Privacy Policy</a></nav><section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="meta">Last updated 9 November 2026</p>
+    <h3>Data from TikTok</h3>
+    <ul>
+      <li>Basic profile information (<code>user.info.basic</code>: open ID, display name, avatar) to show which account is posting.</li>
+      <li>Permission to upload videos as drafts (<code>video.upload</code>) or post them directly (<code>video.publish</code>) to the user's own account.</li>
+    </ul>
+    <h3>Where data is stored</h3>
+    <ul>
+      <li>All videos, transcripts and statistics stay on the user's computer.</li>
+      <li>TikTok access tokens are stored encrypted in the macOS Keychain.</li>
+      <li>No data is sold or shared with third parties, and there is no advertising or tracking.</li>
+    </ul>
+    <h3>Revoking access</h3>
+    <p>The user can disconnect the account in AutoClip Army at any time, which deletes the stored tokens, or revoke access in the TikTok app under Settings and privacy, Security, Manage app permissions.</p>
+  </section></main></body></html>
